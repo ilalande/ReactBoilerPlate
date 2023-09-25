@@ -1,0 +1,20 @@
+:root {
+  --font-weight-general: 400;
+  --font-general: 'Outfit', Arial, sans-serif;
+
+  --bground-color: hsl(177, 51%, 93%, 0.9);
+  --dark-color: hsl(247, 31%, 20%);
+  --background-picto: hsl(247, 31%, 20%, 0.2);
+  --white-color: hsl(216, 100%, 98%);
+  --yellow-color: hsla(51, 100%, 51%);
+
+  --link-color: hsl(248, 47%, 43%);
+  --hover-color: hsl(248, 47%, 43%, 0.8);
+  --hover-button-color: hsla(51, 100%, 51%, 0.8);
+
+  /* ------- SPACING---------*/
+
+  /* ------- OTHER STYLES---------*/
+
+  --border-radius: 50px;
+}

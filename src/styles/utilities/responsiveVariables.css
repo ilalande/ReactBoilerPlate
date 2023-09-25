@@ -1,0 +1,10 @@
+/* common Media queries sizes in 2023 */
+:root {
+  --medium: 576px;
+  --laptop: 1366px;
+  --desktop: 1680px;
+
+  --medium-up: 'only screen and (min-width:#{$medium} )';
+  --laptop-up: 'only screen and (min-width:#{$laptop}	 )';
+  --desktop-up: 'only screen and (min-width:#{$desktop}	 )';
+}
