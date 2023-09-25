@@ -1,0 +1,20 @@
+@import '../utilities/stylesVariables.css';
+
+.navItems li {
+  width: fit-content;
+  border: 2px solid transparent;
+  padding: 0.8rem;
+}
+
+.navItems a:hover {
+  border-bottom: 2px solid var(--hover-color);
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.navItems a {
+  color: var(--link-color);
+}
+.navItems a.active {
+  border-bottom: 2px solid var(--dark-color);
+}

@@ -1,0 +1,7 @@
+.gallery {
+  border: 3px solid green;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
