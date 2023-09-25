@@ -8,12 +8,7 @@
 }
 .header ul {
   width: fit-content;
-  margin: 0;
   font-size: 1rem;
   display: flex;
   gap: 1rem;
-}
-
-.header li {
-  min-width: 90px;
 }

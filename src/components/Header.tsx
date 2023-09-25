@@ -9,8 +9,9 @@ export default function Header(): JSX.Element {
         aria-label='navigation principale'
         className='section'
       >
-        <NavItems cat='navHeader' />
+        <NavItems cat='header' />
       </nav>
+      Header
     </header>
   );
 }

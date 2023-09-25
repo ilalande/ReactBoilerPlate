@@ -1,4 +1,3 @@
-import { useId } from 'react';
 import CardDetail from '@components/CardDetail';
 import ErrorPage from '@pages/ErrorPage';
 import Home from '@pages/Home';
@@ -6,7 +5,7 @@ import StaticPage from '@pages/StaticPage';
 
 export const routes = [
   {
-    path: '/',
+    path: '',
     element: <Home />,
     errorElement: <ErrorPage />,
     name: 'home',

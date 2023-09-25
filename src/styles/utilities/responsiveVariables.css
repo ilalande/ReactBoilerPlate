@@ -1,10 +1,11 @@
 /* common Media queries sizes in 2023 */
-:root {
-  --medium: 576px;
-  --laptop: 1366px;
-  --desktop: 1680px;
+/* Variables not implemented as it's not working. To improve : use useMediaQuery Hook or cscss or styled component and variables in js"
+*/
+/* https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries */
+/* --medium: 576px;
+--laptop: 1366px;
+--desktop: 1680px;
 
-  --medium-up: 'only screen and (min-width:#{$medium} )';
-  --laptop-up: 'only screen and (min-width:#{$laptop}	 )';
-  --desktop-up: 'only screen and (min-width:#{$desktop}	 )';
-}
+--medium-up: 'only screen and (min-width:#{$medium} )';
+--laptop-up: 'only screen and (min-width:#{$laptop}	 )';
+--desktop-up: 'only screen and (min-width:#{$desktop}	 )'; */

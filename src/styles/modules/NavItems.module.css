@@ -15,12 +15,6 @@
 .navItems a {
   color: var(--link-color);
 }
-
-.activeLinkHeader {
-  border-radius: var(--border-radius);
-  clip-path: polygon(1% 11%, 100% 0, 100% 100%, 0 94%);
-}
-
-.activeLink span {
+.navItems a.active {
   border-bottom: 2px solid var(--dark-color);
 }
