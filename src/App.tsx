@@ -6,7 +6,6 @@ import { routes } from '@utils/router';
 function App() {
   return (
     <GeneralLayout>
-      {' '}
       <Routes>
         {routes.map((route) => {
           return (

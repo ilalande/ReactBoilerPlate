@@ -1,3 +1,7 @@
+.footer {
+  margin-top: auto;
+}
+
 .listWrapper {
   display: flex;
   align-items: baseline;

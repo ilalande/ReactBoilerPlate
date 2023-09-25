@@ -11,6 +11,7 @@ export const routes = [
     name: 'home',
     text: 'Accueil',
     catNav: 'header',
+    title: 'Vite Typescript React BoilerPlate - Accueil',
   },
   {
     path: 'staticpage',

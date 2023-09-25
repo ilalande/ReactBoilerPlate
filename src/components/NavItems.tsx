@@ -15,6 +15,7 @@ const NavItems = ({ cat }: { cat: string }) => {
                 className={({ isActive }) =>
                   isActive ? `${styles.active}` : ''
                 }
+                title={item.title}
               >
                 {item.text}{' '}
               </NavLink>

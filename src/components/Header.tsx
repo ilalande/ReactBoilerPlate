@@ -3,12 +3,8 @@ import NavItems from './NavItems';
 
 export default function Header(): JSX.Element {
   return (
-    <header role='banner' className={`${styles.header}`}>
-      <nav
-        role='navigation'
-        aria-label='navigation principale'
-        className='section'
-      >
+    <header role='banner' className={`section ${styles.header}`}>
+      <nav role='navigation' aria-label='navigation principale'>
         <NavItems cat='header' />
       </nav>
       Header

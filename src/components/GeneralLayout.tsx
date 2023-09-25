@@ -5,8 +5,15 @@ import Header from './Header';
 const GeneralLayout: FC<PropsWithChildren> = ({ children }): JSX.Element => {
   return (
     <>
+      <nav role='navigation' aria-label='Accès rapide'>
+        <a href='#main' className='sr-only'>
+          Contenu principal
+        </a>
+      </nav>
       <Header />
-      <main>{children}</main>
+      <main role='main' id='main' className='section'>
+        {children}
+      </main>
       <Footer />
     </>
   );

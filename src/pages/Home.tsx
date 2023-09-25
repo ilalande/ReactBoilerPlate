@@ -5,7 +5,7 @@ import Gallery from '../components/Gallery';
 function Home() {
   return (
     <div className={styles.home}>
-      <h1>Vite Typescript React BoilerPlate</h1>
+      <h1>Vite Typescript React BoilerPlate - Accueil</h1>
       <p>
         <Link to={'/staticpage'}> Link to static page</Link>
       </p>

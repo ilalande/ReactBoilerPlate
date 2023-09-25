@@ -1,9 +1,28 @@
 @import './utilities/reset.css';
 
-#root {
-  max-width: 1280px;
+/* Style form App.css and GeneralLAyout */
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.section {
+  border: 2px solid green;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  border: 1px solid red;
+  max-width: 62.5rem;
+  padding: 0 1.5rem;
+}
+
+.sr-only {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
